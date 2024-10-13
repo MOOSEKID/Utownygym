@@ -1,0 +1,12 @@
+.fc-toolbar-chunk button {
+    text-transform: capitalize;
+    padding: 0.375rem 0.75rem;
+}
+
+.fc-toolbar-chunk {
+    .fc-prev-button,
+    .fc-next-button {
+        background: var(--primary);
+        color: white;
+    }
+}

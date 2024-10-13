@@ -1,0 +1,1 @@
+import{_ as a,o as t,e as c,au as s}from"./index.ec7eb99e.js";const o={props:{media:{type:Object},ratio:{type:Number,default:()=>16/9}},computed:{src(){return this.media?this.media.url:"/images/placeholder.jpg"}}};function i(u,m,r,n,p,e){return t(),c(s,{ratio:r.ratio,class:"thumbnail",src:e.src},null,8,["ratio","src"])}var d=a(o,[["render",i]]);export{d as P};

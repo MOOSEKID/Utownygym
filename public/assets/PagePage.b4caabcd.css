@@ -1,0 +1,1 @@
+.page-preview{border-radius:5px;overflow:hidden}.page-preview iframe{border:none;display:block;overflow:hidden}.page-preview:after{content:"";position:absolute;left:0;top:0;bottom:0;right:0;background-color:gray;z-index:1;opacity:.75}.page-preview .q-btn{z-index:999}

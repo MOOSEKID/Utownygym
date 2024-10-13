@@ -1,0 +1,1 @@
+import{_ as t,o as a,f as r,t as n,n as i}from"./index.ec7eb99e.js";const l={props:{value:[Number,String],hasSignOff:Boolean},computed:{classList(){return this.hasSignOff?this.value<=39?"text-red":this.value<=59?"text-warning":"text-positive":""}}};function o(c,f,e,u,p,s){return a(),r("span",{class:i(s.classList)},n(e.value),3)}var m=t(l,[["render",o]]);export{m as C};

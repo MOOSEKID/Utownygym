@@ -1,0 +1,29 @@
+[
+  {
+    "label": "Free",
+    "description": "<strong>1</strong> Classes\n<strong>5</strong> Guest Pass\n<strong>Unlimited</strong> Members\n<strong>24/7</strong> chat support",
+    "price": 0,
+    "features": {
+      "classes": 5,
+      "guest-pass": 1
+    }
+  },
+  {
+    "label": "Basic",
+    "description": "<strong>5</strong> Classes\n<strong>50</strong> Guest Pass\n<strong>Unlimited</strong> Members\n<strong>24/7</strong> chat support",
+    "price": 4.99,
+    "features": {
+      "classes": 50,
+      "guest-pass": 5
+    }
+  },
+  {
+    "label": "Pro",
+    "description": "<strong>10</strong> Classes\n<strong>100</strong> Guest Pass\n<strong>Unlimited</strong> Members\n<strong>24/7</strong> chat support",
+    "price": 9.99,
+    "features": {
+      "classes": 100,
+      "guest-pass": 10
+    }
+  }
+]

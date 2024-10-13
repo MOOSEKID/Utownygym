@@ -1,0 +1,145 @@
+body {
+  &.body--dark {
+    .bg-main,
+    .base-section:not(.plans-card),
+    .bg-white:not(iframe),
+    .q-dark:not(.q-banner, .q-chip, .selected, .current),
+    .sticky-header thead tr:first-child th,
+    .qr-code-scanner .scanner:before,
+    .q-list--dark:not(.weeks),
+    .base-loading .q-loading__backdrop,
+    .file-selector-uploader .file-select-btn:hover .file-selector {
+      background: var(--q-dark-page) !important;
+    }
+
+    .base-section.plans-card {
+      background: transparent !important;
+    }
+    .link-item.active,
+    .link-item.sublinks .active,
+    .fc-theme-standard .fc-list-day-cushion,
+    .base-thumbnail {
+      background: var(--q-dark) !important;
+    }
+    .link-item.q-item,
+    .link-item.sublinks .q-item,
+    .text-black:not(.q-badge),
+    .text-grey-9:not(.q-field__control) {
+      color: white !important;
+    }
+    .q-card--bordered:not(.selected),
+    .q-item--dark .base-thumbnail,
+    .border-all,
+    .payments-list > *:not(:last-child),
+    .address-list > *:not(:last-child),
+    .plan-card:not(.current, .selected),
+    .q-field--dark .q-field__control:before,
+    .file-selector,
+    .dropzone,
+    .q-list.bordered .q-item:not(:last-child),
+    .rounded-border,
+    .fc-theme-standard td,
+    .fc-theme-standard th,
+    .fc-theme-standard .fc-scrollgrid,
+    .fc-theme-standard .fc-list,
+    .main-table.bordered-items .q-table__grid-content > :not(:last-child),
+    .file-selector-uploader .file-box .box,
+    .base-thumbnail {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .overlapping {
+      border-color: var(--q-dark-page);
+    }
+
+    .q-toolbar,
+    .q-banner--dark,
+    .base-btn,
+    .q-item--dark {
+      .base-thumbnail,
+      &.bg-green-1,
+      &.bg-grey-3,
+      &.bg-grey-4 {
+        background: #323232 !important;
+      }
+      &.text-grey-10 {
+        color: rgba(255, 255, 255, 0.8) !important;
+      }
+    }
+    .bg-grey-3 {
+      background: #202020 !important;
+    }
+    .bg-green-1 {
+      background: #323232 !important;
+    }
+    .q-item__label--caption,
+    .text-grey-8 {
+      color: rgba(255, 255, 255, 0.6) !important;
+    }
+    .main-table {
+      .q-field--square {
+        .q-field__control {
+          background: var(--q-dark-page);
+        }
+      }
+      thead {
+        background: #242424;
+        tr:first-child th:first-child {
+          /* bg color is important for th; just specify one */
+          background-color: #242424;
+        }
+      }
+      td:first-child {
+        /* bg color is important for th; just specify one */
+        background-color: var(--q-dark-page);
+      }
+      &.last-column-sticky {
+        thead tr:first-child th:first-child {
+          /* bg color is important for th; just specify one */
+          background-color: #242424;
+        }
+        td:last-child {
+          /* bg color is important for th; just specify one */
+          background-color: var(--q-dark-page);
+        }
+      }
+      th {
+        background: #242424;
+      }
+      tbody {
+        background: var(--q-dark-page);
+      }
+    }
+    .plan-actions {
+      color: var(--q-dark);
+    }
+
+    .file-selector-uploader.q-dark,
+    .dropzone-uploader.q-dark {
+      background: transparent;
+    }
+
+    .login-container,
+    .signup-container {
+      background: var(--q-dark-page);
+      box-shadow: 0px 8px 24px rgba(115, 115, 115, 0.15);
+    }
+
+    .InputContainer .InputElement {
+      color: white;
+    }
+  }
+
+  .q-separator--dark {
+    z-index: 1;
+  }
+
+  .q-menu--dark {
+    box-shadow: 0 1px 5px rgba(115, 115, 115, 0.2),
+      0 2px 2px rgba(115, 115, 115, 0.14),
+      0 3px 1px -2px rgba(115, 115, 115, 0.12);
+  }
+  .q-skeleton--dark {
+    background: rgba(255, 255, 255, 0.05) !important;
+  }
+}

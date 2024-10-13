@@ -1,0 +1,4 @@
+# Ignore email templates
+resources/views/emails/**
+resources/views/vendor/coderstm/emails/**
+resources/views/app.blade.php

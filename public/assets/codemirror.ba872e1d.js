@@ -1,0 +1,1 @@
+import{b as o}from"./index.ec7eb99e.js";import{W as a,b as r}from"./vue-codemirror.esm.b83b72b5.js";var i=o(async({app:e})=>{e.use(a,{autofocus:!0,disabled:!1,indentWithTab:!0,tabSize:2,placeholder:"Code goes here...",extensions:[r]})});export{i as default};

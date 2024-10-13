@@ -1,0 +1,19 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Full Calendar
+@import "fullcalendar";
+
+a:hover {
+    text-decoration: none;
+}
+
+.slide .slide-content--headings h2 {
+    line-height: 90px;
+}
